@@ -1,0 +1,9 @@
+File not found or path is incorrect from /home/olexandrit/PycharmProjects/SyncFolder
+Traceback (most recent call last):
+  File "/home/olexandrit/PycharmProjects/SyncFolder/syncFoldeds.py", line 20, in <module>
+    sync(nf1, nf2, 'sync', purge = False)
+  File "/usr/local/lib/python3.6/dist-packages/dirsync/run.py", line 15, in sync
+    copier = Syncer(sourcedir, targetdir, action, **options)
+  File "/usr/local/lib/python3.6/dist-packages/dirsync/syncer.py", line 103, in __init__
+    raise ValueError("Error: Source directory does not exist.")
+ValueError: Error: Source directory does not exist.
