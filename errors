@@ -1,9 +1,2 @@
-File not found or path is incorrect from C:\Users\akuzmich\PycharmProjects\SyncFolder
-Traceback (most recent call last):
-  File "C:/Users/akuzmich/PycharmProjects/SyncFolder/syncFoldeds.py", line 20, in <module>
-    sync(nf1, nf2, 'sync', purge = False)
-  File "C:\Users\akuzmich\PycharmProjects\SyncFolder\venv\lib\site-packages\dirsync\run.py", line 15, in sync
-    copier = Syncer(sourcedir, targetdir, action, **options)
-  File "C:\Users\akuzmich\PycharmProjects\SyncFolder\venv\lib\site-packages\dirsync\syncer.py", line 103, in __init__
-    raise ValueError("Error: Source directory does not exist.")
-ValueError: Error: Source directory does not exist.
+Run script 2018.09.17 17:55:00
+Complete script 2018.09.17 17:59:58
