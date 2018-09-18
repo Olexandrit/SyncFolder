@@ -18,12 +18,14 @@ try:
         nf1 = re.sub(r"[u'\']", "", f1)
         nf2 = re.sub(r"[u'\'u'\n']", "", f2)
 
-        flogs.write("Run script " + datetime.strftime(datetime.now(), "%Y.%m.%d %H:%M:%S") + "\n")
+        flogs.write("Run script " + datetime.strftime(datetime.now(), "%Y.%m.%d %H:%M:%S")
+                    + "\n" + "out folder " + f1 + "\n")
         sync(nf1, nf2, 'sync', purge = False)
 
     nfile.close()
 
-    flogs.write("Complete script " + datetime.strftime(datetime.now(), "%Y.%m.%d %H:%M:%S") + "\n")
+    flogs.write("Complete script " + datetime.strftime(datetime.now(), "%Y.%m.%d %H:%M:%S")
+                + "\n" + "inp folder " + f2 + "\n")
     flogs.close()
 
 except Exception:
